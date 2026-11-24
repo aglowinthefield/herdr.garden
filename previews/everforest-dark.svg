@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+<rect width="640" height="300" rx="10" fill="#232a2e"/>
+<rect x="0.5" y="0.5" width="639" height="299" rx="10" fill="none" stroke="#a6b0a0" stroke-opacity="0.5"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f57"/>
+<circle cx="42" cy="20" r="6" fill="#febc2e"/>
+<circle cx="62" cy="20" r="6" fill="#28c840"/>
+<text x="320.0" y="25" fill="#a6b0a0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="13" text-anchor="middle">everforest-dark</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">
+<text x="20.0" y="56" fill="#a7c080" textLength="84.0" lengthAdjust="spacingAndGlyphs">~/code/app</text>
+<text x="112.4" y="56" fill="#d699b6" textLength="33.6" lengthAdjust="spacingAndGlyphs">main</text>
+<text x="154.4" y="56" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="171.2" y="56" fill="#d3c6aa" textLength="25.2" lengthAdjust="spacingAndGlyphs">git</text>
+<text x="204.8" y="56" fill="#d3c6aa" textLength="33.6" lengthAdjust="spacingAndGlyphs">diff</text>
+<text x="246.8" y="56" fill="#d3c6aa" textLength="50.4" lengthAdjust="spacingAndGlyphs">--stat</text>
+<text x="28.4" y="78" fill="#d3c6aa" textLength="109.2" lengthAdjust="spacingAndGlyphs">src/server.rs</text>
+<text x="146.0" y="78" fill="#a6b0a0" textLength="8.4" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="162.8" y="78" fill="#d3c6aa" textLength="16.8" lengthAdjust="spacingAndGlyphs">12</text>
+<text x="188.0" y="78" fill="#a7c080" textLength="67.2" lengthAdjust="spacingAndGlyphs">++++++++</text>
+<text x="255.2" y="78" fill="#e67e80" textLength="33.6" lengthAdjust="spacingAndGlyphs">----</text>
+<text x="28.4" y="100" fill="#d3c6aa" textLength="75.6" lengthAdjust="spacingAndGlyphs">README.md</text>
+<text x="146.0" y="100" fill="#a6b0a0" textLength="8.4" lengthAdjust="spacingAndGlyphs">|</text>
+<text x="171.2" y="100" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="188.0" y="100" fill="#a7c080" textLength="25.2" lengthAdjust="spacingAndGlyphs">+++</text>
+<rect x="169.20000000000002" y="107" width="88.0" height="20" fill="#543a48"/>
+<text x="20.0" y="122" fill="#a7c080" textLength="84.0" lengthAdjust="spacingAndGlyphs">~/code/app</text>
+<text x="112.4" y="122" fill="#d699b6" textLength="33.6" lengthAdjust="spacingAndGlyphs">main</text>
+<text x="154.4" y="122" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">$</text>
+<text x="171.2" y="122" fill="#d3c6aa" textLength="42.0" lengthAdjust="spacingAndGlyphs">cargo</text>
+<text x="221.6" y="122" fill="#d3c6aa" textLength="33.6" lengthAdjust="spacingAndGlyphs">test</text>
+<text x="45.2" y="144" fill="#a7c080" textLength="75.6" lengthAdjust="spacingAndGlyphs">Compiling</text>
+<text x="129.2" y="144" fill="#d3c6aa" textLength="25.2" lengthAdjust="spacingAndGlyphs">app</text>
+<text x="162.8" y="144" fill="#d3c6aa" textLength="50.4" lengthAdjust="spacingAndGlyphs">v0.4.0</text>
+<text x="20.0" y="166" fill="#d3c6aa" textLength="33.6" lengthAdjust="spacingAndGlyphs">test</text>
+<text x="62.0" y="166" fill="#d3c6aa" textLength="42.0" lengthAdjust="spacingAndGlyphs">parse</text>
+<text x="112.4" y="166" fill="#d3c6aa" textLength="25.2" lengthAdjust="spacingAndGlyphs">...</text>
+<text x="146.0" y="166" fill="#a7c080" textLength="16.8" lengthAdjust="spacingAndGlyphs">ok</text>
+<text x="188.0" y="166" fill="#d3c6aa" textLength="33.6" lengthAdjust="spacingAndGlyphs">test</text>
+<text x="230.0" y="166" fill="#d3c6aa" textLength="42.0" lengthAdjust="spacingAndGlyphs">fetch</text>
+<text x="280.4" y="166" fill="#d3c6aa" textLength="25.2" lengthAdjust="spacingAndGlyphs">...</text>
+<text x="314.0" y="166" fill="#e67e80" textLength="50.4" lengthAdjust="spacingAndGlyphs">FAILED</text>
+<text x="20.0" y="188" fill="#dbbc7f" textLength="58.8" lengthAdjust="spacingAndGlyphs">warning</text>
+<text x="78.8" y="188" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">:</text>
+<text x="95.6" y="188" fill="#d3c6aa" textLength="50.4" lengthAdjust="spacingAndGlyphs">unused</text>
+<text x="154.4" y="188" fill="#d3c6aa" textLength="67.2" lengthAdjust="spacingAndGlyphs">variable</text>
+<text x="230.0" y="188" fill="#83c092" textLength="75.6" lengthAdjust="spacingAndGlyphs">`retries`</text>
+<text x="322.4" y="188" fill="#a6b0a0" textLength="8.4" lengthAdjust="spacingAndGlyphs">#</text>
+<text x="339.2" y="188" fill="#a6b0a0" textLength="109.2" lengthAdjust="spacingAndGlyphs">src/net.rs:41</text>
+<text x="20.0" y="210" fill="#7fbbb3" textLength="16.8" lengthAdjust="spacingAndGlyphs">fn</text>
+<text x="45.2" y="210" fill="#dbbc7f" textLength="33.6" lengthAdjust="spacingAndGlyphs">main</text>
+<text x="78.8" y="210" fill="#d3c6aa" textLength="16.8" lengthAdjust="spacingAndGlyphs">()</text>
+<text x="104.0" y="210" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">{</text>
+<text x="120.8" y="210" fill="#d699b6" textLength="25.2" lengthAdjust="spacingAndGlyphs">let</text>
+<text x="154.4" y="210" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="171.2" y="210" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">=</text>
+<text x="188.0" y="210" fill="#83c092" textLength="16.8" lengthAdjust="spacingAndGlyphs">42</text>
+<text x="204.8" y="210" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">;</text>
+<text x="221.6" y="210" fill="#d3c6aa" textLength="8.4" lengthAdjust="spacingAndGlyphs">}</text>
+<rect x="20" y="217" width="8.4" height="20" fill="#e69875"/>
+</g>
+<rect x="20.0" y="248" width="71.0" height="14" rx="3" fill="#7a8478"/>
+<rect x="95.0" y="248" width="71.0" height="14" rx="3" fill="#e67e80"/>
+<rect x="170.0" y="248" width="71.0" height="14" rx="3" fill="#a7c080"/>
+<rect x="245.0" y="248" width="71.0" height="14" rx="3" fill="#dbbc7f"/>
+<rect x="320.0" y="248" width="71.0" height="14" rx="3" fill="#7fbbb3"/>
+<rect x="395.0" y="248" width="71.0" height="14" rx="3" fill="#d699b6"/>
+<rect x="470.0" y="248" width="71.0" height="14" rx="3" fill="#83c092"/>
+<rect x="545.0" y="248" width="71.0" height="14" rx="3" fill="#f2efdf"/>
+<rect x="20.0" y="266" width="71.0" height="14" rx="3" fill="#a6b0a0"/>
+<rect x="95.0" y="266" width="71.0" height="14" rx="3" fill="#f85552"/>
+<rect x="170.0" y="266" width="71.0" height="14" rx="3" fill="#8da101"/>
+<rect x="245.0" y="266" width="71.0" height="14" rx="3" fill="#dfa000"/>
+<rect x="320.0" y="266" width="71.0" height="14" rx="3" fill="#3a94c5"/>
+<rect x="395.0" y="266" width="71.0" height="14" rx="3" fill="#df69ba"/>
+<rect x="470.0" y="266" width="71.0" height="14" rx="3" fill="#35a77c"/>
+<rect x="545.0" y="266" width="71.0" height="14" rx="3" fill="#fffbef"/>
+</svg>
