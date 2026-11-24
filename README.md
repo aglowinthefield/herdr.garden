@@ -1,6 +1,9 @@
 # herdr.garden
 
-Customizations for the [Herdr](https://herdr.dev) desktop app. Each folder is a module you can install on its own.
+Customizations for the [Herdr](https://herdr.dev) desktop app. Each one installs on its own:
+
+- [Themes](#themes): 11 terminal colour themes.
+- [Tab names](#tab-names): names tabs after what runs in them.
 
 ```sh
 git clone https://github.com/aglowinthefield/herdr.garden
@@ -60,6 +63,38 @@ To add a theme, add a line to `THEMES` in the script and run it:
 ```sh
 scripts/build-themes.py
 ```
+
+## Tab names
+
+A mod that names each tab after what runs in it, and updates the name as that changes:
+
+- An agent's task, from its terminal title. pi shows its session name there and Claude Code shows its task.
+- A program's title, such as `main.rs` for Neovim, or the program's name.
+- A shell's folder, when it differs from the space's folder.
+
+Otherwise the tab keeps Herdr's automatic name, its position. A name has to hold for 4 seconds before the tab changes, so short-lived titles don't flicker.
+
+Tabs you name yourself stay as you named them. To hand a tab back, rename it to an empty name.
+
+```sh
+./install.sh tab-names
+```
+
+The mod has no view. It runs in a 0 px block at the bottom of the window. Herdr adds that block by itself only to a personal layout, not to the shipped Herdr, Terminals or Herdr 98 layouts. If you use a shipped layout, clone it first, then install:
+
+```sh
+herdr-app do layout.clone --name main --as mine
+```
+
+Or add the block to a layout file yourself:
+
+```json
+{ "type": "block", "content": { "mod": "tab-names" }, "size": { "px": 0 } }
+```
+
+To see what it would do without renaming anything, give the block `"props": { "dry_run": true }`. It then writes its choices to the shared value `tab-names.preview`, in `~/.config/herdr-app/shared.json`.
+
+The naming rules are in `mods/tab-names/naming.js`. Run their tests with `node --test mods/tab-names/*.test.js`.
 
 ## License
 

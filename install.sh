@@ -2,12 +2,13 @@
 # Install herdr.garden modules into the Herdr app's folder.
 #   ./install.sh themes             install every theme
 #   ./install.sh themes nord dracula install some
+#   ./install.sh tab-names          install a mod from mods/
 set -eu
 
 here=$(cd "$(dirname "$0")" && pwd)
 home=${HERDR_APP_HOME:-$HOME/.config/herdr-app}
 
-usage() { sed -n '2,4p' "$0" | sed 's/^# \{0,1\}//'; exit "${1:-0}"; }
+usage() { sed -n '2,5p' "$0" | sed 's/^# \{0,1\}//'; exit "${1:-0}"; }
 
 [ $# -ge 1 ] || usage 1
 module=$1; shift
@@ -26,5 +27,14 @@ case $module in
     done
     ;;
   -h|--help) usage ;;
-  *) echo "unknown module: $module" >&2; usage 1 ;;
+  *)
+    src="$here/mods/$module"
+    [ -d "$src" ] || { echo "unknown module: $module" >&2; usage 1; }
+    mkdir -p "$home/mods/$module"
+    for f in "$src"/*; do
+      case $f in *.test.js) continue ;; esac
+      cp "$f" "$home/mods/$module/"
+    done
+    echo "installed $module"
+    ;;
 esac
